@@ -1,0 +1,14 @@
+ #papers.li { margin-bottom: 0.5em; }
+.pubtitle {color: #393;  font-variant: small-caps; }
+            .pubtitle A:link {color: #393;text-decoration:none; }
+            .pubtitle A:visited {color: #393;text-decoration:none; }
+            .pubtitle A:hover { text-decoration: underline;}
+            .author {font-size: 0.8em; font-weight: bold;}
+            .author A:link {text-decoration: none; color: black; }
+            .author A:visited {text-decoration: none; color: black; }
+            .author A:active {text-decoration: none; }
+            .author A:hover {text-decoration: underline; color: blue; }
+            .preprint {font-size: 0.8em; color: black; }
+            .preprint A:link {color: blue; text-decoration:none; }
+            .preprint A:visited {color: blue; text-decoration:none; }
+            .preprint A:hover { text-decoration: underline;}

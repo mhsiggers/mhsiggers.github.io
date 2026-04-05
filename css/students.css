@@ -1,0 +1,120 @@
+
+
+/*   Grad Student Cards */
+
+ .cardcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 1s ease-in;
+  padding:10px;}
+
+.card {
+  width: 157px;
+  height: 300px;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+}
+
+.cardimage {
+  height: 70%;
+  width: 100%; }
+
+.cardcontent {
+  font-size: .75em;
+  height: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: white;
+}
+
+
+.cardcontent h3 {
+  font-size: 1em;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+.cardcontent p:nth-child(2) {
+  font-size: 0.8em;
+}
+.cardcontent p:nth-child(3) {
+  font-size: .8em;
+}
+
+/*  Graduated Student Cards  */
+
+
+
+ .gradcardcontainer {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  transition: 1s ease-in;
+  padding:15px;}
+
+ .gradcard{
+   width: 450px;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+   margin: 10px;
+}
+
+
+.gradcardimage {
+  height: 100px;
+  width: 80px; }
+
+ .gradcardcontent{
+   font-size: .75em;
+   height:100%;
+   width:375px;
+   background: white;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: inline;
+}
+
+
+.gradcardcontent h3 {
+  font-size: 1em;
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+.gradcardcontent p:nth-child(2) {
+  font-size: 0.8em;
+}
+.gradcardcontent p:nth-child(3) {
+  font-size: .8em;
+}
+
+
+/*  Undergrad Student Cards */
+
+ .ugcardcontainer {
+  padding:10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+ .ugcard{
+   width: 165px;
+   display: flex;
+   flex-direction: column;
+   margin: 3px;
+   padding:10px;
+   border: 1px solid black;
+}
+
+
+  .ugcard p { margin-top: .3em; margin-bottom: 0em;}
+
+  .ugcard p:nth-child(2) {font-size: 1.2em; }
+  .ugcard p:nth-child(1) {font-size: 0.7em; }
+  .ugcard p:nth-child(3) {font-size: 0.7em; }
+  .ugcard p:nth-child(4) {font-size: 1em; margin-bottom: .5em. }

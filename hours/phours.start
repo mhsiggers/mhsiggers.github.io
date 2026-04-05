@@ -1,0 +1,72 @@
+<!--  This file is for the script scheduleToPhone  -->  
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Mark H SIGGERS- Office Hours</TITLE>
+<META http-equiv=content-type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.2800.1458" name=GENERATOR>
+    <link rel="stylesheet" type="text/css" href="../css/teaching.css" />
+    <link rel="stylesheet" type="text/css" href="../css/hw.css" />
+    <link rel="stylesheet" type="text/css" href="../css/kyungpook.css" />
+    <script src="../javafiles/knu_navi.js"> </script>
+<style>
+
+body {
+    background: url("../img/Tree.jpg") center/cover no-repeat;
+}
+
+/* widen the schedule  first margin is top */
+
+
+table.hw {
+    width: 92vw;
+    margin: 800px auto 0 auto;
+}
+
+
+/* override fixed column widths */
+table.hw th,
+table.hw td {
+    width: auto !important;
+    font-weight: 600;
+}
+
+/* keep rows transparent */
+tr.main, tr.alt {
+    background: transparent !important;
+}
+
+/* remove backgrounds from containers */
+.container, .main, .page, table.structure {
+    background: transparent !important;
+}
+
+</style>
+
+
+
+</HEAD>
+<body> 
+
+
+<!-- Middle Column -->
+
+<div align="center" class="container">
+<div class="main">
+
+
+<div class="top">
+ <script type="text/javascript">mytop("..")</script>
+</div>
+
+
+ <div class="page">
+ <div class="content" valign="top" align="center">
+   <table class="structure"><tr><td class="structure">
+   <table class="hw">
+   <th width="100px"> Time     <th width="100px"> Mon <th width="100px"> Tues <th width="100px"> Wed <th width="100px"> Thurs <th width="100px"> Fri 
+
+<!--    Put the schedule table in here, and then run the following:
+  :>   brave-browser --headless --window-size=1080,2400 --screenshot=schedule.png phours.html
+  :>   mv schedule.png /home/data/syncthing/S9Home/
+  
+ --->  
+

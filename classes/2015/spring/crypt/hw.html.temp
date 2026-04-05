@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title> Cryptography </title>
+  </head>
+
+  <body>  <h1> Class Info </h1>
+
+   
+   
+
+ <table style="empty-cells: show" border=1 bgcolor=#fff0f0>
+    <tr bgcolor=#ddd5d3 align="center"><td> Class Date <td> Section(s) <td>  Homework <td> Subject to Quiz on <td> Comments
+    <tr><td rowspan=2> Mar 03 <td> 1.1 <td> 1.4a
+                        <td bgcolor=#f18080>       
+                        <td rowspan=2> There are also suggested problems in the classnotes for Chap 1. 
+                                                                 <br>  <a href="./chap1.pdf"> Chap 1 Notes </a> 
+    <tr>                                      <td> 1.2 <td> 1.9a, 1.10a, 1.11  <td bgcolor=#f18080> 1.11
+    <tr><td rowspan=1> Mar 08 <td> 1.3 <td> 1.15c, 1.16e, 1.18, 1.20, 1.23a <td bgcolor=#f18080> 1.15c, 1.18                                  
+    <tr><td rowspan=1> Mar 10  <td> 1.4 <td> 1.26, 1.29,     <td bgcolor=#f18080> 1.29    <td> We got half way through Sect 1.5.
+    <tr><td rowspan=2> Mar 15  <td> 1.5 <td>  1.30, 1.31, 1.34, 1.36 <td bgcolor=#80f180> 1.34 (a,d)
+    <tr>                                       <td>  1.7 <td>  1.40, 1.42, 1.46 (read example 1.35 of text), <td bgcolor=#80f180>  
+    <tr><td rowspan=1> Mar 17  <td> (2.6)<td>  2.16 <td bgcolor=#80f180> 2.16(c)   <td>We did some of the material from section 2.6.
+    <tr><td rowspan=2>  Mar 22 <td>  2.2 <td> 2.3, 2.4, 2.5 <td bgcolor=#80f180> <td bgcolor=#f18080 rowspan=2> First assignment Due. 
+    <tr>                                       <td> 2.3  <td> 2.6 <td bgcolor=#80f180>   2.6    
+    <tr><td rowspan=1 > Mar 24  <td> <td> <td bgcolor=#80f180> <td> No Class. Most of you are at MT.
+    <tr><td rowspan=1 > Mar 29  <td> Review <td> 
+                                   
+
+
+    <tr><td rowspan=3> Mar 31 <td> 2.4 <td> 2.8, 2.9, 2.10 <td bgcolor=#f18080> 2.8 
+    <tr>                      <td> 2.5 <td> 2.11, 2.13, 2.14 <td bgcolor=#f18080>  <td>We don't cover Section 2.5. I assume you know it. If you feel rusty, do all of these exercises. 
+    <tr>                      <td> 2.7 <td > 2.17 <td bgcolor=#f18080>  
+    <tr><td rowspan=1> Apr 05 <td> 2.8 <td > 2.18, 2.23, 2.24, 2.25 <td bgcolor=#f18080>  2.18(b), 2.24(a)   <td rowspan=1 bgcolor=#80f180> Second assignment Due. Sections 1.5 - 2.3.
+    <tr><td rowspan=1> Apr 07 <td> 3.1 <td> 3.1(b), 3.3, 3.4 <td  bgcolor=#f18080> 3.4
+    <tr><td rowspan=2> Apr 12 <td> 3.2 <td> 3.6, 3.7, 3.8, 3.9, 3.10 <td  bgcolor=#f18080> 3.9(a), 3.10  <td> Please use a computer for computational problems.  (It is more useful for you to program the algorithms than to use those built into an algebra system.)
+    If you don't have access to (or hate) computers, just change the numbers in the problem to something reasonable (but not trivial)
+    and do the problem by hand.
+    <tr>                    <td> 3.3 <td> 3.12 <td bgcolor=#f18080>  3.12 
+    <tr><td bgcolor=#ddd5d3> Apr 14 <td> 3.4 <td> 3.13 (a,b,c), 3.14, 3.17 <td bgcolor=#f18080> 3.13 (a,b) 
+    <tr><td bgcolor=#d3eef0> Apr 19 <td>  <td> <td> <font color="red"> Test 1 </font><td> Test covers material upto  (and including) Section 3.1.  Mostly from suggested homework, but also: 1) show an element in Z/pZ is a generator  2) know the statements of the DHP and DLP and El-Gamal PKC, and be able to solve one using the other if we did so in class   3) understand what calculations are reasonable to do by hand and what you should be able to say 'but I can do this here' of.  <a href="./Solutions.pdf">Solutions</a>
+           
+    <tr><td bgcolor=#d3eef0> Apr 21 <td> <td> <td> No class - exam period.
+    <tr><td bgcolor=#ddd5d3> Apr 26 <td> 3.5 <td> 3.21. 3.22 (a-e) <td bgcolor=#f18080> 3.22 (c-e)
+    <tr><td bgcolor=#ddd5d3> Apr 28 <td> 3.9 <td> 3.36, 3.38, 3.39, also.. 
+                                             <br> 1) Decide if 147 is a quadratic residue modulo 1009.
+                                             <br> 2) Compute the Jacobi symbol (32416/10105). 
+                                             <td bgcolor=#f18080> 3.39 
+    <tr><td bgcolor=#d3eef0> May 03 <td> 3.10 <td> 3.41 <tr> 3.41 (b)  
+    <tr><td bgcolor=#d3eef0> May 05 <td> <td> <font color="red"> No class (Children's Day) </font> <td> 
+    <tr><td bgcolor=#ddd5d3> May 10 <td> <td> <font color="red"> No class (Bhudda's Birthday) </font> <td> 
+    <tr><td bgcolor=#ddd5d3> May 12 <td> 5.1 <td> 5.1, 5.2 <td bgcolor=#80f180> 5.1 
+    <tr><td bgcolor=#d3eef0> May 17 <td> 5.2 <td> 5.5 , 5.6, 5.7  <td bgcolor=#80f180> 5.6b, 
+    <tr><td bgcolor=#d3eef0> May 19 <td> 5.3 <td> 5.8, 5.9, 5.10  <td bgcolor=#80f180> 5.9 <td bgcolor=#f18080> Third assignment Due.
+    <tr><td bgcolor=#ddd5d3> May 24 <td> 5.4 <td> 5.13, 5.15, 5.16, 5.17 <td bgcolor=#80f180> 5.16a, 5.17a
+    <tr><td bgcolor=#ddd5d3> May 26 <td rowspan="3">  Review and practice problems.   
+    <tr><td bgcolor=#d3eef0> May 31 <td>   
+    <tr><td bgcolor=#d3eef0> Jun 02 <td>   <td> <td bgcolor=#80f180> Fourth assignment Due.
+    <tr><td bgcolor=#ddd5d3> Jun 09 <td>  <td> <font color="red"> Final Test  <a href="./11FinalSol.pdf">Solutions<</font><td>
+
+    </td></tr></table>  
+
+
+
+    <hr> 
+    <a href="./index.html"> main page </a>
+    
+
+    <hr>
+<!-- Created: Sat Mar 21 07:37:27 KST 2009 -->
+<!-- hhmts start -->
+Last Modified: Fri Oct 29 14:59:14 KST 2010 
+<!-- hhmts end -->
+  </body>
+</html>

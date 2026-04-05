@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Sage</title>
+    <META http-equiv=content-type content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylefiles/teaching.css" />
+  </head>
+
+
+  <body>
+
+
+<div align="center" class="container">
+<div class="main">
+    <h1 align="center">Python and Sage</h1>
+
+
+
+     Program examples in this class will be in Python or Sage. Assignments can be done in any language, but I would prefer Python3 or Sage. <br>
+
+     Python is a common programming language, used everywhere, and useful to learn. <br>
+
+     Sage is built in python, but includes many functions for pure and applied math, so is often easier to get started for math applications. <br>
+
+     Either of them you can use by installing on your computer, or use online. <br>
+
+     <h2> Using Python or Sage on your computer </h2>
+
+     Python is a language.  You can put your program in a file, and then run the program in an interpretor, from a command prompt or terminal: <br><br>
+
+
+      <div align="center">
+       <img src="../img/Python3-1.png" alt="Commandline Python" width="90%">
+      </div>
+
+      <br><br>
+
+
+      You can also use Python interactively in your terminal. <br><br>
+
+
+            <div align="center">
+             <img src="../img/Python3-2.png" alt="Interactive Python" width="90%">
+            </div>
+
+            <br><br>
+
+
+
+    If this is scary, you can also find many 'graphical environments' that combine the bits for you.  VSCode is a common one. <br><br>
+    Another nice one for interative use is the Jupyter Notebook.  <br><br>
+
+
+            <div align="center">
+             <img src="../img/Python3-3.png" alt="Python Jupiter Notebook" width="90%">
+            </div>
+
+            <br><br>
+
+
+    You can install this on your computer. If you have Python installed, you can install it easily with pip.
+    Here is a <a href="https://cs231n.github.io/python-numpy-tutorial/#python">nice tutorial</a>. It will help you install the notebook and introduce you to using it.
+    Several students in the department should know how to install python. If you don't hopefully they can help you. <br><br>
+
+    Sage is the same. You can use it all the same ways. You can download and install it on your computer. (Be warned that it is big.  Over 1Gb download and uses over 4Gb on your harddrive.):
+    <br><br>
+    Windows:  <a href="https://github.com/sagemath/sage-windows/releases"> Sagemath on Github</a><br>
+    Linux or Mac: <a href="http://www.sagemath.org/download.html"> Sagemath Download Page </a><br>
+    <br><br>
+
+
+    Or, both Sage and Python can be used online, so you do not have to install it.<br>
+    There are several places online that you can use Jupyter Notebooks. Some are free, and some are paid. All will allow you to use Python, but few will allow you to use sage.
+    For sage, the main one is <a href="http://www.cocalc.com">Cocalc.com</a>.  It is free, but the free version is slow.  If you pay $3 per month it is much faster. <br><br>
+
+    For this class, I will try to run a Cocalc server from my office: <a href="http://cocalc.siggers.work"> KNU Cocalc Server </a>.  To sign-in you will need a code that I will give you.
+    Those who are comfortable installing Python or Sage another way though, please do. The more people that use this, the slower it will run.
+
+
+
+
+   <!--  You can also download and use Sage it and use it directly on your computer.
+     This is easy if you run Linux (or some other non-windows OS) but is trickier if you run Windows.
+     There is no actively developed Windows version. <br><br>
+
+      <h3>  Linux </h3>
+
+    Linux, like Apple's  OSX, is an alternative to Windows.   As a mathematician, you should really be using Linux.
+     There are many different versions of Linux. <br>
+
+     <h3> Ubuntu </h3>
+    One popular distribution of Linux  is <a href="http://www.ubuntu.com/">Ubuntu</a>.  It is fairly easy to use.<br>
+    However in Korea, it is inconvenient not to use windows, (you need windows to use websites that have activeX: this is most banking and
+    shopping websites in Korea). There are a couple of says to use Ubuntu that don't require you to wipe windows off your computer.
+
+    <h4> Dual Booting </h4>
+
+    This is a way to put Linux on your computer, so that when you boot up, you can choose between linux and windows.  <br>
+     When you download the installer from <a href="http://www.ubuntu.com/">Ubuntu</a>. It will give you the option of
+     wiping your whole harddrive, or partitioning it and doing a Dual Boot.  I suggest the Dual Boot. <br><br>
+
+    Another way to do this is to use a  <a href="http://www.ubuntu.com/download/ubuntu/windows-installer">Wubi Installer</a>.<br>
+    It isn't as clean as a real dual boot, but is reversible, you don't make changes to your system. You can just erase some files, and
+    get rid of it if you don't like it. <br><br>
+
+    <h4> Virtual Machine </h4>
+
+    Another option is to run Linux in a virtual machine.  <br>
+    This lets you run Linux inside windows. <br />
+    Good:  You don't have to logout to switch between Windows and Linux. <br />
+    Bad:  It uses a lot of cpu, so slows down the computer.   <br />
+
+    To run a virtual machine, a good option is <a href="https://www.virtualbox.org/wiki/Downloads"> VirtualBox </a>. <br>
+    Your computer is the 'host'    So you probably want to download VirtualBox for Windows Hosts.  <br> The Linux you will run
+     is the Guest.
+
+     Once you install VirtualBox, you can install as many different guests OSs as you want. <br>
+     I already have one built with Sage installed on it.  The file for this is big, Jaeha has kindly put it online for us,
+   you can download it here:  <a href="http://blog.naver.com/bluething87/memo/40156388334"> here</a>.<br>
+     Once you install VirtualBox and download the file U11.10.ova from Jaeha,  you go to <br>
+           file -> Import Appliance  <br>
+     in VirtualBox and import U11.10.ova.   <br> <br>
+
+     When you run the machine that is installed, <p class="attn"> the login name is 'user' and the password is 'password'.</p> <br><br>
+
+           <img  alt="login.png" width="400px" src="../pictures/login.png" /> <br>
+     In the login screen ( if it skips it then you can get to it my logging out ) you have a choice of two desktops: fluxbox
+     or Ubuntu.   (Click the wheel/ cog for this choice)  <br><br>
+
+     Ubuntu is flashier, and maybe easier to use, but a bit slow (especially on start-up). <br>
+        <img  alt="ubuntu.png" width="400px" src="../pictures/Ubuntu.png" /> <br>
+      Fluxbox uses less resources, so is better if you have a weak computer.  <br>
+    <img  alt="fluxbox.png" width="400px" src="../pictures/fluxbox.png" /><br>
+     I have put launchers for Sage on both of them.  Sage will open in firefox.  <br>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+    <hr>
+  </div>
+  </body>
+</html>

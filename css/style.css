@@ -1,0 +1,198 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://Alvarez.is
+ *
+ * Project Name: NYC Design
+ * Version: 1.0
+ * Date: 04-20-2014
+ * URL:
+ */
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #16a085;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
+}
+
+
+
+.navbar-default {border-color: transparent; background-color: rgba(0, 0, 0, 0.7);}
+.navbar-default .navbar-nav > li > a {font-weight: 500;	color: #cff;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {color: #1abc9c;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #1abc9c;
+	background-color: transparent;
+	border-bottom: 2px solid #1abc9c
+}
+
+.navbar-default .navbar-nav > .subitem > a, .navbar-default .navbar-nav > .subitem > a:hover, .navbar-default .navbar-nav > .subitem > a:focus {
+  font-size: 12px;
+}
+
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	padding-top: 250px;
+	margin-top: -70px;
+	text-align:right;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/**  WRAP BACKGROUND PHOTOS **/
+
+
+/**   Title Font colour is here **/
+
+#headerwrap h1 {
+	color:#000000;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h2 {
+	font-weight: 600;
+	color: #000000;
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+
+
+
+/* Gallery */
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
+
+
+
+/* Show on hover */
+
+.mhide {
+  visibility: hidden;
+}
+
+.SOH:hover + .mhide {
+  visibility: visible;
+  color: blue;
+}
+
+
+
+
+#bottom-info {
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+  color: #ddd;
+}
+
+
+div.minipage{
+font-size: 1em;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align:justify;
+      }
+
+div.minipagetitle{
+ text-align: left;
+ padding-left: 10px;
+ font-size: 1.2em;
+ font-weight: bold;
+ font-family: "Arial Unicode MS", serif;
+ border-top:10px solid white;
+ border-bottom: 2px solid #556b2f;
+  }
