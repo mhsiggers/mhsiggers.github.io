@@ -5,6 +5,8 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+/*  mhs:  This does the main styling of the page sorting out the navigation and the sizing. I don't touch this. Styling for this is done in style.css  */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
